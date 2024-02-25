@@ -35,7 +35,6 @@ namespace PractNo1Question1
             this.radioBtnMale = new System.Windows.Forms.RadioButton();
             this.UpBtn = new System.Windows.Forms.Button();
             this.picBox = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.txtHobby = new System.Windows.Forms.TextBox();
             this.txtAdd = new System.Windows.Forms.TextBox();
             this.txtMob = new System.Windows.Forms.TextBox();
@@ -78,7 +77,6 @@ namespace PractNo1Question1
             this.panel1.Controls.Add(this.radioBtnMale);
             this.panel1.Controls.Add(this.UpBtn);
             this.panel1.Controls.Add(this.picBox);
-            this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.txtHobby);
             this.panel1.Controls.Add(this.txtAdd);
             this.panel1.Controls.Add(this.txtMob);
@@ -144,20 +142,9 @@ namespace PractNo1Question1
             this.picBox.Location = new System.Drawing.Point(493, 36);
             this.picBox.Name = "picBox";
             this.picBox.Size = new System.Drawing.Size(138, 153);
+            this.picBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBox.TabIndex = 27;
             this.picBox.TabStop = false;
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button3.Location = new System.Drawing.Point(289, 432);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(172, 50);
-            this.button3.TabIndex = 26;
-            this.button3.Text = "Display";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // txtHobby
             // 
@@ -244,7 +231,7 @@ namespace PractNo1Question1
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button2.Location = new System.Drawing.Point(83, 432);
+            this.button2.Location = new System.Drawing.Point(124, 432);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(166, 50);
             this.button2.TabIndex = 13;
@@ -256,7 +243,7 @@ namespace PractNo1Question1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button1.Location = new System.Drawing.Point(493, 432);
+            this.button1.Location = new System.Drawing.Point(455, 432);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(153, 50);
             this.button1.TabIndex = 12;
@@ -407,7 +394,6 @@ namespace PractNo1Question1
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button UpBtn;
         private System.Windows.Forms.PictureBox picBox;
         private System.Windows.Forms.RadioButton radioButton2;

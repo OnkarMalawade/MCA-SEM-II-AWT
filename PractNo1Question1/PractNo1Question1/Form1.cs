@@ -24,45 +24,42 @@ namespace PractNo1Question1
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
-            txtfname.Text,
-            txtmname.Text,
-            txtLname.Text,
-            dtDOB.Value.ToShortDateString(),
-            txtAdd.Text,
-            txtMob.Text,
-            uname.Text,
-            password.Text,
-            radioBtnMale.Checked ? "Male" : "Female",
-            txtHobby.Text,
-            txtCity.Text,
-            picBox.Image);
+            Form2 f2 = new Form2();
 
+            f2.fname = txtfname.Text;
+            f2.mname = txtmname.Text;
+            f2.lname = txtLname.Text;
+            f2.dob = dtDOB.Value.ToShortDateString();
+            f2.add = txtAdd.Text;
+            f2.mob = txtMob.Text;
+            f2.uname = uname.Text;
+            f2.pass = password.Text;
+            f2.gen = radioBtnMale.Checked ? "Male" : "Female";
+            f2.hobby = txtHobby.Text;
+            f2.city = txtCity.Text;
+            f2.imgB = picBox.Image;
 
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
+            f2.ShowDialog();
         }
 
         private void UpBtn_Click(object sender, EventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "Image Files (*.jpg; *.jpeg; *.png; *.gif; *.bmp)|*.jpg; *.jpeg; *.png; *.gif; *.bmp";
-
-            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            String imageLocation = "";
+            try
             {
-                try
+                OpenFileDialog dialog = new OpenFileDialog();
+                dialog.Filter = "Image Files (*.jpg; *.jpeg; *.png; *.gif; *.bmp)|*.jpg; *.jpeg; *.png; *.gif; *.bmp";
+
+                if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
-                    // Load the selected image into PictureBox
-                    picBox.Image = new System.Drawing.Bitmap(openFileDialog.FileName);
+                    imageLocation = dialog.FileName;
+
+                    picBox.ImageLocation = imageLocation;
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Error loading image: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                     
+            }catch(Exception)
+            {
+                MessageBox.Show("Error:" , "Error", MessageBoxButtons.OK,MessageBoxIcon.Error); 
             }
         }
     }
