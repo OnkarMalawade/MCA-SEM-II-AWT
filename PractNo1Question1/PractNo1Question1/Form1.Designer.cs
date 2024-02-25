@@ -31,6 +31,10 @@ namespace PractNo1Question1
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioBtnMale = new System.Windows.Forms.RadioButton();
+            this.UpBtn = new System.Windows.Forms.Button();
+            this.picBox = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.txtHobby = new System.Windows.Forms.TextBox();
             this.txtAdd = new System.Windows.Forms.TextBox();
@@ -42,12 +46,10 @@ namespace PractNo1Question1
             this.txtLname = new System.Windows.Forms.TextBox();
             this.txtmname = new System.Windows.Forms.TextBox();
             this.txtfname = new System.Windows.Forms.TextBox();
-            this.gender = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -57,6 +59,7 @@ namespace PractNo1Question1
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -71,6 +74,10 @@ namespace PractNo1Question1
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.radioButton2);
+            this.panel1.Controls.Add(this.radioBtnMale);
+            this.panel1.Controls.Add(this.UpBtn);
+            this.panel1.Controls.Add(this.picBox);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.txtHobby);
             this.panel1.Controls.Add(this.txtAdd);
@@ -82,12 +89,10 @@ namespace PractNo1Question1
             this.panel1.Controls.Add(this.txtLname);
             this.panel1.Controls.Add(this.txtmname);
             this.panel1.Controls.Add(this.txtfname);
-            this.panel1.Controls.Add(this.gender);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label13);
             this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label8);
@@ -100,6 +105,47 @@ namespace PractNo1Question1
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(689, 522);
             this.panel1.TabIndex = 1;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(526, 292);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(75, 21);
+            this.radioButton2.TabIndex = 30;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Female";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioBtnMale
+            // 
+            this.radioBtnMale.AutoSize = true;
+            this.radioBtnMale.Location = new System.Drawing.Point(444, 292);
+            this.radioBtnMale.Name = "radioBtnMale";
+            this.radioBtnMale.Size = new System.Drawing.Size(59, 21);
+            this.radioBtnMale.TabIndex = 29;
+            this.radioBtnMale.TabStop = true;
+            this.radioBtnMale.Text = "Male";
+            this.radioBtnMale.UseVisualStyleBackColor = true;
+            // 
+            // UpBtn
+            // 
+            this.UpBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.UpBtn.Location = new System.Drawing.Point(493, 186);
+            this.UpBtn.Name = "UpBtn";
+            this.UpBtn.Size = new System.Drawing.Size(138, 33);
+            this.UpBtn.TabIndex = 28;
+            this.UpBtn.Text = "Upload";
+            this.UpBtn.UseVisualStyleBackColor = true;
+            this.UpBtn.Click += new System.EventHandler(this.UpBtn_Click);
+            // 
+            // picBox
+            // 
+            this.picBox.Location = new System.Drawing.Point(493, 36);
+            this.picBox.Name = "picBox";
+            this.picBox.Size = new System.Drawing.Size(138, 153);
+            this.picBox.TabIndex = 27;
+            this.picBox.TabStop = false;
             // 
             // button3
             // 
@@ -194,19 +240,6 @@ namespace PractNo1Question1
             this.txtfname.Size = new System.Drawing.Size(184, 34);
             this.txtfname.TabIndex = 15;
             // 
-            // gender
-            // 
-            this.gender.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gender.FormattingEnabled = true;
-            this.gender.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
-            this.gender.Location = new System.Drawing.Point(510, 282);
-            this.gender.Name = "gender";
-            this.gender.Size = new System.Drawing.Size(121, 37);
-            this.gender.TabIndex = 14;
-            this.gender.Text = "Select";
-            // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -250,16 +283,6 @@ namespace PractNo1Question1
             this.label12.Size = new System.Drawing.Size(57, 29);
             this.label12.TabIndex = 10;
             this.label12.Text = "City";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(404, 285);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(100, 29);
-            this.label11.TabIndex = 9;
-            this.label11.Text = "Gender";
             // 
             // label10
             // 
@@ -352,6 +375,7 @@ namespace PractNo1Question1
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -362,7 +386,6 @@ namespace PractNo1Question1
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
@@ -381,11 +404,14 @@ namespace PractNo1Question1
         private System.Windows.Forms.TextBox txtLname;
         private System.Windows.Forms.TextBox txtmname;
         private System.Windows.Forms.TextBox txtfname;
-        private System.Windows.Forms.ComboBox gender;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button UpBtn;
+        private System.Windows.Forms.PictureBox picBox;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioBtnMale;
     }
 }
 

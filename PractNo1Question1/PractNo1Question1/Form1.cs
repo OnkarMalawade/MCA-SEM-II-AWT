@@ -12,7 +12,6 @@ namespace PractNo1Question1
 {
     public partial class Form1 : Form
     {
-        Register reg = null;
         public Form1()
         {
             InitializeComponent();
@@ -25,48 +24,46 @@ namespace PractNo1Question1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            try
-            {
-                int mob = Convert.ToInt32(txtMob.Text);
-                string fn = txtfname.Text;
-                string mn = txtmname.Text;
-                string ln = txtLname.Text;
-                string un = uname.Text;
-                string ps = password.Text;
-                string gen = gender.Text;
-                string hob = txtHobby.Text;
-                string ad = txtAdd.Text;
-            }
-            catch(Exception ex)
-            {
-                MessageBox.Show("Exception Caught!!! " + ex.Message + " at line " + ex.StackTrace);
-            }
-            finally
-            {
-                MessageBox.Show("Thank You!!!");
-            }
+           
+            txtfname.Text,
+            txtmname.Text,
+            txtLname.Text,
+            dtDOB.Value.ToShortDateString(),
+            txtAdd.Text,
+            txtMob.Text,
+            uname.Text,
+            password.Text,
+            radioBtnMale.Checked ? "Male" : "Female",
+            txtHobby.Text,
+            txtCity.Text,
+            picBox.Image);
+
+
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
 
         }
-    }
-    // class register
-    class Register
-    {
-        string fname;
-        string lname;
-        string mname;
-        string uname;
-        string pass;
-        string mob;
-        string dob;
-        string city;
-        string gender;
-        string add;
-        string hobby;
 
+        private void UpBtn_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Image Files (*.jpg; *.jpeg; *.png; *.gif; *.bmp)|*.jpg; *.jpeg; *.png; *.gif; *.bmp";
 
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    // Load the selected image into PictureBox
+                    picBox.Image = new System.Drawing.Bitmap(openFileDialog.FileName);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error loading image: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
     }
 }
