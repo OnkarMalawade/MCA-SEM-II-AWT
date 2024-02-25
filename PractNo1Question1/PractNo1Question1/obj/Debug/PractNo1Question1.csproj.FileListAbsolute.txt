@@ -1,0 +1,10 @@
+G:\MCA-SEM-II-AWT\Pract_No_1\PractNo1Question1\PractNo1Question1\bin\Debug\PractNo1Question1.exe.config
+G:\MCA-SEM-II-AWT\Pract_No_1\PractNo1Question1\PractNo1Question1\bin\Debug\PractNo1Question1.exe
+G:\MCA-SEM-II-AWT\Pract_No_1\PractNo1Question1\PractNo1Question1\bin\Debug\PractNo1Question1.pdb
+G:\MCA-SEM-II-AWT\Pract_No_1\PractNo1Question1\PractNo1Question1\obj\Debug\PractNo1Question1.csproj.AssemblyReference.cache
+G:\MCA-SEM-II-AWT\Pract_No_1\PractNo1Question1\PractNo1Question1\obj\Debug\PractNo1Question1.Form1.resources
+G:\MCA-SEM-II-AWT\Pract_No_1\PractNo1Question1\PractNo1Question1\obj\Debug\PractNo1Question1.Properties.Resources.resources
+G:\MCA-SEM-II-AWT\Pract_No_1\PractNo1Question1\PractNo1Question1\obj\Debug\PractNo1Question1.csproj.GenerateResource.cache
+G:\MCA-SEM-II-AWT\Pract_No_1\PractNo1Question1\PractNo1Question1\obj\Debug\PractNo1Question1.csproj.CoreCompileInputs.cache
+G:\MCA-SEM-II-AWT\Pract_No_1\PractNo1Question1\PractNo1Question1\obj\Debug\PractNo1Question1.exe
+G:\MCA-SEM-II-AWT\Pract_No_1\PractNo1Question1\PractNo1Question1\obj\Debug\PractNo1Question1.pdb
