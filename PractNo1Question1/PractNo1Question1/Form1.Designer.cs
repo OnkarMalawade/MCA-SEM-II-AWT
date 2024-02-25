@@ -29,6 +29,7 @@ namespace PractNo1Question1
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -139,6 +140,8 @@ namespace PractNo1Question1
             // 
             // picBox
             // 
+            this.picBox.ErrorImage = null;
+            this.picBox.Image = ((System.Drawing.Image)(resources.GetObject("picBox.Image")));
             this.picBox.Location = new System.Drawing.Point(493, 36);
             this.picBox.Name = "picBox";
             this.picBox.Size = new System.Drawing.Size(138, 153);
