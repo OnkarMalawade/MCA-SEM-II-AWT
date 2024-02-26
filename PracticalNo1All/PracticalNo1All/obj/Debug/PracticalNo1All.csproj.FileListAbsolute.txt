@@ -1,0 +1,16 @@
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\bin\Debug\PracticalNo1All.exe.config
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\bin\Debug\PracticalNo1All.exe
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\bin\Debug\PracticalNo1All.pdb
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\obj\Debug\PracticalNo1All.csproj.AssemblyReference.cache
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\obj\Debug\PracticalNo1All.Pract1No4.resources
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\obj\Debug\PracticalNo1All.Pract1Q2.resources
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\obj\Debug\PracticalNo1All.Pract1Q3.resources
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\obj\Debug\PracticalNo1All.Properties.Resources.resources
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\obj\Debug\PracticalNo1All.csproj.GenerateResource.cache
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\obj\Debug\PracticalNo1All.csproj.CoreCompileInputs.cache
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\obj\Debug\PracticalNo1All.exe
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\obj\Debug\PracticalNo1All.pdb
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\obj\Debug\PracticalNo1All.Pract1Q5.resources
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\obj\Debug\PracticalNo1All.Pract1Q6.resources
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\obj\Debug\PracticalNo1All.Pract1Q7.resources
+G:\MCA-SEM-II-AWT\PracticalNo1All\PracticalNo1All\obj\Debug\PracticalNo1All.Pract1Q8.resources
