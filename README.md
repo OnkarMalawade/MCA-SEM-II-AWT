@@ -1,6 +1,6 @@
 # <a href = "https://github.com/OnkarMalawade/MCA-SEM-II-AWT/">MCA-SEM-II-AWT</a>
 
-### <a href = "https://github.com/OnkarMalawade/MCA-SEM-II-AWT/tree/main/Practice-Question-Box">Practice-Box-List</a>
+### <a href = "https://github.com/OnkarMalawade/MCA-SEM-II-AWT/tree/main/Practice-Questio-Box">Practice-Box-List</a>
 
 > Question 1 Create Calculator
 
