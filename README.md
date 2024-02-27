@@ -5,7 +5,8 @@
 > Question 1 Create Calculator
 
 
-### Informative Note
+### Informative Note Practical No.1
 > Multiple Inheritance is Not Possible in C# asp.net <br/>
 > Use Interface for the Solution of it <br/>
-> Abstract classes cannot be declared as <b>sealed</b>
+> Abstract classes cannot be declared as <b>sealed</b><br/>
+> Polymorphism Types : Compile Time/Static Binding/Early Binding and Runtime<br/>
