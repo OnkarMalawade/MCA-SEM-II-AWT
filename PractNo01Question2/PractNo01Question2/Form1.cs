@@ -36,6 +36,16 @@ namespace PractNo01Question2
                 MessageBox.Show("Exception Caught!!! " + ex.Message + " at line " + ex.StackTrace);
             }
         }
+
+        private void txtYear_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     class Year

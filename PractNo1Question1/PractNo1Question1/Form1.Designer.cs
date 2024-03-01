@@ -186,9 +186,11 @@ namespace PractNo1Question1
             // 
             this.dtDOB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtDOB.Location = new System.Drawing.Point(172, 246);
+            this.dtDOB.MaxDate = new System.DateTime(2024, 2, 26, 11, 40, 42, 0);
             this.dtDOB.Name = "dtDOB";
             this.dtDOB.Size = new System.Drawing.Size(200, 30);
             this.dtDOB.TabIndex = 21;
+            this.dtDOB.Value = new System.DateTime(2024, 2, 26, 0, 0, 0, 0);
             // 
             // password
             // 

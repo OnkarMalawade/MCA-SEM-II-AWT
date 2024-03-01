@@ -29,157 +29,170 @@ namespace PractNo1Question1
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lblFname = new System.Windows.Forms.Label();
+            this.lblMname = new System.Windows.Forms.Label();
+            this.lblLname = new System.Windows.Forms.Label();
+            this.lbluname = new System.Windows.Forms.Label();
+            this.lblPass = new System.Windows.Forms.Label();
+            this.lblCity = new System.Windows.Forms.Label();
+            this.lblAdd = new System.Windows.Forms.Label();
+            this.lblGen = new System.Windows.Forms.Label();
+            this.lblHobby = new System.Windows.Forms.Label();
+            this.lblMob = new System.Windows.Forms.Label();
+            this.lblDOB = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblFname
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(40, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lblFname.AutoSize = true;
+            this.lblFname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFname.Location = new System.Drawing.Point(60, 65);
+            this.lblFname.Name = "lblFname";
+            this.lblFname.Size = new System.Drawing.Size(66, 24);
+            this.lblFname.TabIndex = 0;
+            this.lblFname.Text = "label1";
             // 
-            // label2
+            // lblMname
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(111, 12);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 24);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.lblMname.AutoSize = true;
+            this.lblMname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMname.Location = new System.Drawing.Point(155, 65);
+            this.lblMname.Name = "lblMname";
+            this.lblMname.Size = new System.Drawing.Size(66, 24);
+            this.lblMname.TabIndex = 1;
+            this.lblMname.Text = "label2";
             // 
-            // label3
+            // lblLname
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(206, 12);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 24);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.lblLname.AutoSize = true;
+            this.lblLname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLname.Location = new System.Drawing.Point(253, 65);
+            this.lblLname.Name = "lblLname";
+            this.lblLname.Size = new System.Drawing.Size(66, 24);
+            this.lblLname.TabIndex = 2;
+            this.lblLname.Text = "label3";
             // 
-            // label4
+            // lbluname
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(40, 53);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 24);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.lbluname.AutoSize = true;
+            this.lbluname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbluname.Location = new System.Drawing.Point(60, 106);
+            this.lbluname.Name = "lbluname";
+            this.lbluname.Size = new System.Drawing.Size(66, 24);
+            this.lbluname.TabIndex = 3;
+            this.lbluname.Text = "label4";
             // 
-            // label5
+            // lblPass
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(40, 97);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(66, 24);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.lblPass.AutoSize = true;
+            this.lblPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPass.Location = new System.Drawing.Point(60, 150);
+            this.lblPass.Name = "lblPass";
+            this.lblPass.Size = new System.Drawing.Size(66, 24);
+            this.lblPass.TabIndex = 4;
+            this.lblPass.Text = "label5";
             // 
-            // label6
+            // lblCity
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(40, 141);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 24);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "label6";
+            this.lblCity.AutoSize = true;
+            this.lblCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCity.Location = new System.Drawing.Point(60, 194);
+            this.lblCity.Name = "lblCity";
+            this.lblCity.Size = new System.Drawing.Size(66, 24);
+            this.lblCity.TabIndex = 5;
+            this.lblCity.Text = "label6";
             // 
-            // label7
+            // lblAdd
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(40, 190);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(66, 24);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "label7";
+            this.lblAdd.AutoSize = true;
+            this.lblAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdd.Location = new System.Drawing.Point(60, 243);
+            this.lblAdd.Name = "lblAdd";
+            this.lblAdd.Size = new System.Drawing.Size(66, 24);
+            this.lblAdd.TabIndex = 6;
+            this.lblAdd.Text = "label7";
             // 
-            // label8
+            // lblGen
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(40, 235);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(66, 24);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "label8";
+            this.lblGen.AutoSize = true;
+            this.lblGen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGen.Location = new System.Drawing.Point(60, 288);
+            this.lblGen.Name = "lblGen";
+            this.lblGen.Size = new System.Drawing.Size(66, 24);
+            this.lblGen.TabIndex = 7;
+            this.lblGen.Text = "label8";
             // 
-            // label9
+            // lblHobby
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(40, 270);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(66, 24);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "label9";
+            this.lblHobby.AutoSize = true;
+            this.lblHobby.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHobby.Location = new System.Drawing.Point(60, 323);
+            this.lblHobby.Name = "lblHobby";
+            this.lblHobby.Size = new System.Drawing.Size(66, 24);
+            this.lblHobby.TabIndex = 8;
+            this.lblHobby.Text = "label9";
             // 
-            // label10
+            // lblMob
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(40, 311);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(77, 24);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "label10";
+            this.lblMob.AutoSize = true;
+            this.lblMob.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMob.Location = new System.Drawing.Point(60, 364);
+            this.lblMob.Name = "lblMob";
+            this.lblMob.Size = new System.Drawing.Size(77, 24);
+            this.lblMob.TabIndex = 9;
+            this.lblMob.Text = "label10";
             // 
-            // label11
+            // lblDOB
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(40, 350);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(77, 24);
-            this.label11.TabIndex = 10;
-            this.label11.Text = "label11";
+            this.lblDOB.AutoSize = true;
+            this.lblDOB.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDOB.Location = new System.Drawing.Point(60, 403);
+            this.lblDOB.Name = "lblDOB";
+            this.lblDOB.Size = new System.Drawing.Size(77, 24);
+            this.lblDOB.TabIndex = 10;
+            this.lblDOB.Text = "label11";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(524, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(544, 65);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(160, 164);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Maroon;
+            this.label1.Location = new System.Drawing.Point(276, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(254, 32);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Person Information";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 482);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.lblDOB);
+            this.Controls.Add(this.lblMob);
+            this.Controls.Add(this.lblHobby);
+            this.Controls.Add(this.lblGen);
+            this.Controls.Add(this.lblAdd);
+            this.Controls.Add(this.lblCity);
+            this.Controls.Add(this.lblPass);
+            this.Controls.Add(this.lbluname);
+            this.Controls.Add(this.lblLname);
+            this.Controls.Add(this.lblMname);
+            this.Controls.Add(this.lblFname);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
@@ -191,17 +204,18 @@ namespace PractNo1Question1
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblFname;
+        private System.Windows.Forms.Label lblMname;
+        private System.Windows.Forms.Label lblLname;
+        private System.Windows.Forms.Label lbluname;
+        private System.Windows.Forms.Label lblPass;
+        private System.Windows.Forms.Label lblCity;
+        private System.Windows.Forms.Label lblAdd;
+        private System.Windows.Forms.Label lblGen;
+        private System.Windows.Forms.Label lblHobby;
+        private System.Windows.Forms.Label lblMob;
+        private System.Windows.Forms.Label lblDOB;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }

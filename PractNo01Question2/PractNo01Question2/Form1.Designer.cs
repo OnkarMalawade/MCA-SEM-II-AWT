@@ -41,9 +41,10 @@ namespace PractNo01Question2
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(59, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(198, 39);
+            this.label1.Size = new System.Drawing.Size(193, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "Enter Year:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtYear
             // 
@@ -52,6 +53,7 @@ namespace PractNo01Question2
             this.txtYear.Name = "txtYear";
             this.txtYear.Size = new System.Drawing.Size(179, 45);
             this.txtYear.TabIndex = 1;
+            this.txtYear.TextChanged += new System.EventHandler(this.txtYear_TextChanged);
             // 
             // button1
             // 

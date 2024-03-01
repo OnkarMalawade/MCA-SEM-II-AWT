@@ -32,17 +32,17 @@ namespace PractNo1Question1
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            label1.Text = fname;
-            label2.Text = mname;
-            label3.Text = lname;
-            label4.Text = uname;
-            label5.Text = pass;
-            label6.Text = city;
-            label7.Text = add;
-            label8.Text = gen;
-            label9.Text = hobby;
-            label10.Text = mob;
-            label11.Text = dob;
+            lblFname.Text = fname;
+            lblMname.Text = mname;
+            lblLname.Text = lname;
+            lbluname.Text = uname;
+            lblPass.Text = pass;
+            lblCity.Text = city;
+            lblAdd.Text = add;
+            lblGen.Text = gen;
+            lblHobby.Text = hobby;
+            lblMob.Text = mob;
+            lblDOB.Text = dob;
             pictureBox1.Image = imgB;
         }
     }
