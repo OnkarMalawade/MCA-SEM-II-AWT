@@ -20,3 +20,4 @@
 > It Convert MSIL code to Native Language Code.
 > <br/> Single file Page and Code behind file Module
 > <br/> Reference type is used for data sending and operations
+> <br/> Event contains one value EventArgs e
