@@ -10,3 +10,9 @@
 > Use Interface for the Solution of it <br/>
 > Abstract classes cannot be declared as <b>sealed</b><br/>
 > Polymorphism Types : Compile Time/Static Binding/Early Binding and Runtime/Dynamic Binding/Late Binding<br/>
+
+
+### Informative Note Practical No.2
+> Events to be send over it <br/>
+> Phases:
+> PreInit, Init, Load, Prerender,
