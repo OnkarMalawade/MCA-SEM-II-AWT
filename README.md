@@ -16,3 +16,6 @@
 > Events to be send over it <br/>
 > Phases:
 > PreInit, Init, Load, Prerender,
+> <br/> What is JIT (Just in Time) Compilar?
+> It Convert MSIL code to Native Language Code.
+> <br/> Single file Page and Code behind file Module
