@@ -19,3 +19,4 @@
 > <br/> What is JIT (Just in Time) Compilar?
 > It Convert MSIL code to Native Language Code.
 > <br/> Single file Page and Code behind file Module
+> <br/> Reference type is used for data sending and operations
