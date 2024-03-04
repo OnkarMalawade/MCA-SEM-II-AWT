@@ -21,3 +21,5 @@
 > <br/> Single file Page and Code behind file Module
 > <br/> Reference type is used for data sending and operations
 > <br/> Event contains one value EventArgs e
+> <br/> For PostBack posting Property (Page.IsPostback)
+> <br/> For Crosspage Posting we check Property (PreviousPage.FindControl("id"));
