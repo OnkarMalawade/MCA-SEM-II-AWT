@@ -31,3 +31,6 @@
 4. Regular Expression Validator: Email<br/>
 5. Custom Validator: New Creation Of Validator<br/>
 6. Summary Validation: Compulsition<br/>
+
+#### Unabosortive Error Solution:
+<p>1. Web.config, 2. Global.asax, 3. Page_Load</p>
