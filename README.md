@@ -23,3 +23,10 @@
 > <br/> Event contains one value EventArgs e
 > <br/> For PostBack posting Property (Page.IsPostback)
 > <br/> For Crosspage Posting we check Property (PreviousPage.FindControl("id"));
+
+ <p>Validation Control: <br/> Client Side Validation on the Browser, Server Side Validation is Better or the Client Side Validation</p> <br/>
+1. Required Field Validation: id, name<br/>
+2. Compare Validator: new pass and Confirm pass<br/>
+3. Range Validator: Age<br/>
+4. Regular Expression Validator: Email<br/>
+5. Custom Validator: <br/>
