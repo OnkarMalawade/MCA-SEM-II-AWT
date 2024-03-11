@@ -2,7 +2,7 @@
 
 ### <a href = "https://github.com/OnkarMalawade/MCA-SEM-II-AWT/tree/main/Practice-Questio-Box">Practice-Box-List</a>
 
-## jQuery is Library of Javascript
+## jQuery is Library of Javascript (Jquery vs Javascript)
 Traversing Libray or Document traversing or Animation or Work with AJAX
 
 > Question 1 Create Calculator
