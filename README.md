@@ -34,3 +34,5 @@
 
 #### Unabosortive Error Solution:
 <p>1. Web.config, 2. Global.asax, 3. Page_Load</p>
+
+<p>Cross Page And AutoPostBack</p>
