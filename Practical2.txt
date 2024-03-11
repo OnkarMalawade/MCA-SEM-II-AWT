@@ -1,0 +1,66 @@
+Practical No.2
+
+How to  use NodeJs,Angular
+Master Pages
+
+1.Asp.Net Introduction
+-Extension
+  .aspx
+  .aspx.cs,etc
+
+2.ASP.NET Page Life Cycle
+
+MSIL-(Microsoft Intermidiate Language)
+JIT-(Just in Time)Compiler
+
+Q1.What is the Type of JIT
+
+3.ASP.NET Coding Module
+  .Single-file Page
+  .Code-behind Page
+
+4.Data Types in C# -
+ The base class of all types is the System.Object class.
+
+Event hnadler 
+  .Source file
+
+event
+  .event
+----------------------------
+Posting 
+ .PostBack
+ .CrossPage
+
+Asp web server control
+.asp
+.button etc
+
+Validation Control
+.client side may work or may not work ,It is depend on various browser etc
+.server side 
+1.RequiredField Validation -all field required 
+	Properties:
+	-ControlToValidate (Feild Name)
+	-Display=Static
+  	-ErrorMessage
+	-Text 
+	-ForeColor=Red
+2.CompareValidator -password,confirm password
+3.RangeValidator- age etc,
+4.RegularExpression Validator -email etc
+5.CustomValidator- 
+	Properties:
+	-ControlToValidate (Feild Name)
+	-Display=Static
+  	-ErrorMessage
+	-Text 
+	-ForeColor=Red
+
+	selectcontrol->Goto->Event->ServerValidate->Give Method Name->ValidatePassword ->Enter
+	
+6.Summary -Error message,notification
+
+Hw
+AutoPostBack,CrossBack Posting
+ValidatePassword Method custom Validator to P2 Practical in lab
