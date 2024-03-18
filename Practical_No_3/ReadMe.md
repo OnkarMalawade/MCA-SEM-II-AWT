@@ -15,4 +15,7 @@
 
 > 2. <b>Disconnected Arichietecture:</b> When required you connected to the database. It contain temporary database work on the temporary db after it update to the Main db. It contain SqlConnection, DataSet, SqlDataAdapter,SqlCommandBuilder. DataSet is Slower and contain multiple type data<br/>
 
-<img src="./ADO.png"/>
+<img src="ADO.png">
+</img>
+
+class change with files name and connection file
