@@ -18,4 +18,12 @@
 <img src="ADO.png">
 </img>
 
-class change with files name and connection file
+class change with files name and connection file.
+
+> SqlConnection: to connect with the DB using Open() method and Close().<br/>
+> SqlConnection conn;<br/>
+> conn.Open(); <br/>
+
+> SqlCommand: Execute use various interactions based on the requirements <br/>
+> 1. ExecuteScaler: Single cell operations to be perform by using it.(e.g. Select, Update, sum(), min(), max() )<br/>
+> 2. ExecuteReader: When it executes returns an Instance of <b>DataReader</b> Class.<br/>
