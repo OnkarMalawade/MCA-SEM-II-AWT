@@ -39,6 +39,9 @@ Asp web server control
 Validation Control
 .client side may work or may not work ,It is depend on various browser etc
 .server side 
+	<appSettings>
+		<add key="ValidationSettings:UnobtrusiveValidationMode" value ="None"/>
+	</appSettings>
 1.RequiredField Validation -all field required 
 	Properties:
 	-ControlToValidate (Feild Name)
