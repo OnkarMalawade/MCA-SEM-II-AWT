@@ -1,7 +1,7 @@
 # Practical No.3
 <br/>
 
-## Data Bound Control (Grid View) 
+## Data Bound Control / Data Binding Control (Grid View) 
 <br/>
 
 > <a href ="#">Data Source and Data Bound Control </a>
@@ -25,5 +25,7 @@ class change with files name and connection file.
 > conn.Open(); <br/>
 
 > SqlCommand: Execute use various interactions based on the requirements <br/>
-> 1. ExecuteScaler: Single cell operations to be perform by using it.(e.g. Select, Update, sum(), min(), max() )<br/>
-> 2. ExecuteReader: When it executes returns an Instance of <b>DataReader</b> Class.<br/>
+> 1. ExecuteScaler(): Single cell operations to be perform by using it.(e.g. Select, Update, sum(), min(), max() )<br/>
+> 2. ExecuteReader(): When it executes returns an Instance of <b>DataReader</b> Class.<br/>
+> 3. ExecuteNonQuery(): It returns (DML integer) how many data or rows are affected.(Update, Insert).<br/>
+> 4. DataReader Object: You can Read Only the Data. Results of Connected Architecture. <b>It display Single Table inside of it</b>. Faster Access, Manually Control.We Can't create relation in data reader.It Can't modify data.
