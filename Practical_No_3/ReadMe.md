@@ -273,3 +273,46 @@ class change with files name and connection file.
 
         }
 ```
+# SQL Stored Procedures Below:
+
+``` Sql Stored Procedure
+#1
+CREATE PROCEDURE insertData
+(@RollNo int,
+@Name varchar(50),
+@Address varchar(50))
+AS
+begin 
+insert into stud values(@RollNo,@Name,@Address)
+SET NOCOUNT ON;
+end
+
+#2
+CREATE PROCEDURE deleteData
+(@RollNo int)
+AS
+begin 
+DELETE stud WHERE rollno=@RollNo
+SET NOCOUNT ON;
+end
+
+#3
+CREATE PROCEDURE deleteData
+(@RollNo int)
+AS
+begin 
+DELETE stud WHERE rollno=@RollNo
+SET NOCOUNT ON;
+end
+
+#4
+CREATE PROCEDURE updateData
+(@RollNo int,
+@Name varchar(50),
+@Address varchar(50))
+AS
+begin 
+UPDATE stud SET name=@Name,address=@Address WHERE rollno=@RollNo
+SET NOCOUNT ON;
+end
+```
