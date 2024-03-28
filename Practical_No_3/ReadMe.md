@@ -29,3 +29,247 @@ class change with files name and connection file.
 > 2. ExecuteReader(): When it executes returns an Instance of <b>DataReader</b> Class.<br/>
 > 3. ExecuteNonQuery(): It returns (DML integer) how many data or rows are affected.(Update, Insert).<br/>
 > 4. DataReader Object: You can Read Only the Data. Results of Connected Architecture. <b>It display Single Table inside of it</b>. Faster Access, Manually Control.We Can't create relation in data reader.It Can't modify data.
+
+``` C#
+  protected void btnSort_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DataView dv = new DataView(dt);
+               // dv.Sort = TextBox4.Text; // name ASC
+                dv.RowFilter = TextBox4.Text; //"address =Mumbai"
+                GridView1.DataSource = dv;
+                GridView1.DataBind();
+            }catch(Exception ex)
+            {
+                Label5.Text = "Exception" + ex.Message;
+               
+            }
+        }
+
+        protected void btnAddSP_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+
+                if (txtRollno.Text != "" && txtName.Text != "" && txtAddress.Text != "")
+                {
+                    cmd = new SqlCommand();
+                    if (conn.State == ConnectionState.Closed)
+                    {
+                        conn.Open();
+                    }
+                    cmd.Connection = conn;
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.CommandText = "insertData";
+
+                    cmd.Parameters.Add(new SqlParameter("@RollNo", SqlDbType.SmallInt)).Value =
+                        Convert.ToInt16(txtRollno.Text);
+
+
+                    cmd.Parameters.Add(new SqlParameter("@Name", SqlDbType.VarChar)).Value =
+                        txtName.Text;
+
+                    cmd.Parameters.Add(new SqlParameter("@Address", SqlDbType.VarChar)).Value =
+                        txtAddress.Text;
+
+
+
+                    int r = cmd.ExecuteNonQuery();
+
+                    if (r != 0)
+                    {
+                        TextBox4.Text = "Record Inserted";
+                    }
+                    else
+                    {
+                        TextBox4.Text = "Failed!!";
+                    }
+
+
+                }
+                else
+                {
+                    Label5.Text = "Please Enter Data!";
+                }
+            }
+            catch (Exception ex)
+            {
+                Label5.Text = "Exception" + ex.Message;
+            }
+            finally
+            {
+                conn.Close();
+                showData();
+
+            }
+
+        }
+
+        protected void btnSrcSP_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+
+                if (TextBox4.Text != "")
+                {
+                    cmd = new SqlCommand();
+                    if (conn.State == ConnectionState.Closed)
+                    {
+                        conn.Open();
+                    }
+                    cmd.Connection = conn;
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.CommandText = "srcData";
+
+
+                    cmd.Parameters.Add(new SqlParameter("@RollNo", SqlDbType.SmallInt)).Value =
+                        Convert.ToInt16(TextBox4.Text);
+                    dr = cmd.ExecuteReader();
+                    if (dr.HasRows)
+                    {
+                        Label5.Text = "Got The Records ";
+
+
+                        while (dr.Read())
+                        {
+
+
+                            txtRollno.Text = dr[0].ToString();
+                            txtName.Text = dr[1].ToString();
+                            txtAddress.Text = dr[2].ToString();
+                        }
+                    }
+                    else
+                    {
+                        Label5.Text = ("Records Not Found");
+                    }
+                }
+                else
+                {
+                    Label5.Text = "Please Enter Data!";
+                }
+            }
+            catch (Exception ex)
+            {
+                Label5.Text = "Exception" + ex.Message;
+            }
+            finally
+            {
+                conn.Close();
+
+            }
+        }
+
+        protected void btnDltSP_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+
+                if (txtRollno.Text != "")
+                {
+                    cmd = new SqlCommand();
+                    if (conn.State == ConnectionState.Closed)
+                    {
+                        conn.Open();
+                    }
+                    cmd.Connection = conn;
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.CommandText = "deleteData";
+
+
+                    cmd.Parameters.Add(new SqlParameter("@RollNo", SqlDbType.SmallInt)).Value =
+                        Convert.ToInt16(txtRollno.Text);
+
+
+                    int r = cmd.ExecuteNonQuery();
+
+                    if (r != 0)
+                    {
+                        TextBox4.Text = "Record Deleted";
+                    }
+                    else
+                    {
+                        TextBox4.Text = "Failed!!";
+                    }
+
+
+                }
+                else
+                {
+                    Label5.Text = "Please Enter Data!";
+                }
+            }
+            catch (Exception ex)
+            {
+                Label5.Text = "Exception" + ex.Message;
+            }
+            finally
+            {
+                conn.Close();
+                showData();
+
+            }
+        }
+
+        protected void btnUpdateSP_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+
+                if (txtRollno.Text != "" && txtName.Text != "" && txtAddress.Text != "")
+                {
+                    cmd = new SqlCommand();
+                    if (conn.State == ConnectionState.Closed)
+                    {
+                        conn.Open();
+                    }
+                    cmd.Connection = conn;
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.CommandText = "updateData";
+
+                    cmd.Parameters.Add(new SqlParameter("@RollNo", SqlDbType.SmallInt)).Value =
+                        Convert.ToInt16(txtRollno.Text);
+
+
+                    cmd.Parameters.Add(new SqlParameter("@Name", SqlDbType.VarChar)).Value =
+                        txtName.Text;
+
+                    cmd.Parameters.Add(new SqlParameter("@Address", SqlDbType.VarChar)).Value =
+                        txtAddress.Text;
+
+                    int r = cmd.ExecuteNonQuery();
+
+                    if (r != 0)
+                    {
+                        TextBox4.Text = "Record Updated";
+                    }
+                    else
+                    {
+                        TextBox4.Text = "Failed!!";
+                    }
+
+
+                }
+                else
+                {
+                    Label5.Text = "Please Enter Data!";
+                }
+            }
+            catch (Exception ex)
+            {
+                Label5.Text = "Exception" + ex.Message;
+            }
+            finally
+            {
+                conn.Close();
+                showData();
+
+            }
+
+        }
+```
