@@ -297,13 +297,14 @@ SET NOCOUNT ON;
 end
 
 #3
-CREATE PROCEDURE deleteData
-(@RollNo int)
+CREATE PROCEDURE selectData
+(@Rollno int)
 AS
-begin 
-DELETE stud WHERE rollno=@RollNo
-SET NOCOUNT ON;
-end
+BEGIN
+SELECT * FROM stud WHERE rollno=@Rollno;
+SET NOCOUNT ON;
+END
+GO
 
 #4
 CREATE PROCEDURE updateData
