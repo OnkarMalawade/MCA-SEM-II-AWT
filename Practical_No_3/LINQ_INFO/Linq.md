@@ -50,3 +50,6 @@ foreach(var w in longWords){
 
 ### LINQ to SQL
 <img src="https://www.tutorialspoint.com/linq/images/linq_sql_architecture.jpg" alt="LINQ to SQL">
+> LINQ to SQL API<br/>
+> LINQ to SQL Provider<br/>
+> ADO Provider
