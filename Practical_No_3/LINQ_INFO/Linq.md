@@ -1,6 +1,8 @@
 # Language Integrated Query(LINQ)
 <br/>
+
 ## Part of Practical 3
+
 <hr/>
 
 ### Introduced in VS 2008
@@ -11,3 +13,5 @@
 > LINQ to XML<br/>
 > LINQ to DataSet<br/>
 > LINQ to SQL<br/>
+> LINQ to Entities<br/>
+> There are other Some of the LINQ are PLINQ(Parralel LINQ).
