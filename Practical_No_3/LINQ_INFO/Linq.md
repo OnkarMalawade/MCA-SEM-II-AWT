@@ -16,4 +16,4 @@
 > LINQ to Entities<br/>
 > There are other Some of the LINQ are PLINQ(Parralel LINQ).
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Flinq-language-integrated-query%2F&psig=AOvVaw2E7A6MDVaR0LEd0vS58oC8&ust=1712040042237000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiPoKa0oIUDFQAAAAAdAAAAABAE" alt="LINQ Architecture" />
+<img src="[https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Flinq-language-integrated-query%2F&psig=AOvVaw2E7A6MDVaR0LEd0vS58oC8&ust=1712040042237000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiPoKa0oIUDFQAAAAAdAAAAABAE](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Flinq-language-integrated-query%2F&psig=AOvVaw2E7A6MDVaR0LEd0vS58oC8&ust=1712040042237000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiPoKa0oIUDFQAAAAAdAAAAABAE)" alt="LINQ Architecture" />
