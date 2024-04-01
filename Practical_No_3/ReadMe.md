@@ -13,7 +13,7 @@
 
 > 1. <b>Connected Archietecture:</b> Stay Connected while Accessing data with Connection string and retrive data from it. It contain SqlCommand,SqlDataReader,SqlConnection. SqlDataReader contain only single data and it Faster performance<br/>
 
-> 2. <b>Disconnected Arichietecture:</b> When required you connected to the database. It contain temporary database work on the temporary db after it update to the Main db. It contain SqlConnection, DataSet, SqlDataAdapter,SqlCommandBuilder. DataSet is Slower and contain multiple type data. SqlDataAdapter CRUD operation work on it. DataSet allow multiple table takes time. SqlCommondBuilder is used to build Command ar requirements, It will Automatically create Sql Query<br/>
+> 2. <b>Disconnected Arichietecture:</b> When required you connected to the database. It contain temporary database work on the temporary db after it update to the Main db. It contain SqlConnection, DataSet, SqlDataAdapter,SqlCommandBuilder. DataSet is Slower and contain multiple type data. SqlDataAdapter CRUD operation work on it. DataSet allow multiple table takes time. SqlCommondBuilder is used to build Command ar requirements, It will Automatically create Sql Query. fill() retrive data from Main to temporary table, update() add updated data from temporay data to main data.<br/>
 
 <img src="ADO.png">
 </img>
