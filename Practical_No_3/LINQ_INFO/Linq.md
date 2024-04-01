@@ -18,6 +18,7 @@
 <center>
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20190504200533/Untitled-Diagram24.jpg" alt="LINQ Architecture" />
 </center>
+
 ### Lambda Method:
 > Syntax : <br/>
 
