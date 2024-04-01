@@ -1,0 +1,33 @@
+Practical No.3
+
+Data source Control
+Data bound Control
+
+create new web project-> add web form->add one label,one gridView->add one database File (.mdf)->one App_Data folder is created ->right click on it->go to source Explorer-> Add one Table->Add Some Data on it 
+
+1)ADO.NET:-
+  -Connected Architecture
+	.connection is open Constently for data access 
+	.Object:-
+	  *SqlConnection:to connect with db using open using Open() method and close using Close() 	  method
+	  *SqlCommand: uses various intraction base on your Requirement (Create, Select, Update 	  etc).
+		1.ExecuteScaler()-to show Single cell (e.g. count,max,min,etc)
+		2.ExecuteReader()- return an instance of DataReader class,uses "Select"
+		3.ExecuteNonQuery()-manipulation command(insert ,update, delete etc).
+	  *SqlDataReader: allow single table,fast access,Select Statemnet is use,Read-only 	 	  access,Bind to single Control(gridView etc),can't modified ,
+  -Disconnected Architecture
+	.open connectionn when required
+	.perform Operation on Temp DB
+	.Object:-
+	  *SqlConnection
+	  *DataSet: allow multiple table,takes time
+	  *SqlDataAdapter:Crud Operation,responsible for Communication with DB
+	  *SqlCommandBuilder:Builds The Comand As Per Requirement,It be will Created Automatically
+
+* fill()-
+* update()-update all the changes from Dataset to actual DB Table 
+Example 1:
+	Create Web form->design->open Connection->
+
+-----------------------------------------27/3/24-----------------------------------------------
+ server Explorer->right click on Stored Procedure->add new->
