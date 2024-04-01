@@ -47,3 +47,6 @@ foreach(var w in longWords){
 > 1. Specify Source Creation <br/>
 > 2. Define Query Expression defination <br/>
 > 3. Execute Query(Done using for each loop)<br/>
+
+### LINQ to SQL
+<img src="https://www.tutorialspoint.com/linq/images/linq_sql_architecture.jpg" alt="LINQ to SQL">
