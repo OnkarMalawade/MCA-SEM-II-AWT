@@ -15,7 +15,7 @@
 > 3. Client Side Session Management: <br/>
 > Hidden Field: it is best to store only small amounts of frequently changed data<br/>
 > Cookies: Store data in client data, simplicity, Data Persistance, No Server resource Required.<br/>
-> Control State:<br/>
+> Control State: To cache the data for the store data, essential for the private data show , it is used to store small amount  of critical data storing, Complex technique,Programming is required.<br/>
 > Query Strings: A Query String is used to pass the values or information form one page to another page, Widespread Support, Simple Implimentation, Potential Security Risk<br/>
 > View State: Save the data for the user. it store the value with help of hashtable, cannot store the larger values<br/>
 
