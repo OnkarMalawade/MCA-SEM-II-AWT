@@ -3,4 +3,14 @@ Its purpose is to abstract the ties to a relational database, in such a way that
 In essence, we speak about decoupling between our Applications and the logic of data access, which proves to be a major plus.
 For example: If we need to move - in the context of a single program - to different manufacturers database, it would be required to review the way and the instructions with which we interface the data manager on duty.
 
-<img src = >
+<img src = "https://www.entityframeworktutorial.net/images/basics/ef-in-app-architecture.png">
+
+> Cross Platform
+
+> Modelling
+
+> Querying
+
+> Change Tracking
+
+> Saving
