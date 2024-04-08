@@ -17,7 +17,7 @@
 > Cookies: Store data in client data, simplicity, Data Persistance, No Server resource Required.<br/>
 > Control State:<br/>
 > Query Strings: A Query String is used to pass the values or information form one page to another page, Widespread Support, Simple Implimentation, Potential Security Risk<br/>
-> View State:<br/>
+> View State: Save the data for the user. it store the value with help of hashtable, cannot store the larger values<br/>
 
 > 4. Server Side Session Management <br/>
 > Session
