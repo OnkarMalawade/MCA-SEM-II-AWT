@@ -18,3 +18,17 @@ For example: If we need to move - in the context of a single program - to differ
 > Change Tracking
 
 > Saving
+
+> Cocurrency
+
+> Transactions
+
+> Caching: cache memory, supplementary memory system that temporarily stores frequently used instructions and data for quicker processing by the central processing unit (CPU) of a computer. The cache augments, and is an extension of, a computer's main memory.
+> <img src = "https://media.geeksforgeeks.org/wp-content/uploads/cache.png">
+
+> Built-in Conventions
+
+> Configuration
+
+> Migrations
+
