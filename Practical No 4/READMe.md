@@ -12,8 +12,18 @@
 </p> 
 <br/>
 
-> 3. Client Side Session Management <br/>
+> 3. Client Side Session Management: <br/>
+> Hidden Field:
+> Cookies:
+> Control State:
+> Query Strings:
+> View State:
 
 > 4. Server Side Session Management <br/>
+> Session
+> Application
+> Profile Properties
+> Cache
+> Context.Items
 
 > 5. 
