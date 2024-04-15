@@ -20,7 +20,9 @@
 > View State: Save the data for the user. it store the value with help of hashtable, cannot store the larger values<br/>
 
 > 4. Server Side Session Management <br/>
-> Session<br/>
+> Session: InProc, State Server, SQLServer, Custom
+<img src="https://www.codeproject.com/KB/session/ExploringSession/explor5.jpg"/>
+<br/>
 > Application<br/>
 > Profile Properties<br/>
 > Cache<br/>
