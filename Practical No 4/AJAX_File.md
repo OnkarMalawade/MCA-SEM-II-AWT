@@ -3,3 +3,4 @@
 ### AJAX (Asynchronous Js and XML): <br/>
 > Developing Application the greatest challenge is to make quick, reponsive, reliable, user friendly and responsive. <br/>
 > Ajax enables a web application user to interact with a web page without the interruption of constant web page reloading. <br/>
+> <img src = "https://miro.medium.com/v2/format:webp/1*V5syja2casc0gCuu9zKV5g.png">
