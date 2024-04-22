@@ -27,4 +27,9 @@
 > Cache<br/>
 > Context.Items<br/>
 
-> 5. Session Management: In Process, Out Of Process: Mode
+> 5. Session Management: In Process, Out Of Process: Mode <br/>
+>    .remove(str Collection): particular item<br/>
+>    .removeAll(): clear all data <br/>
+>    .Clear(): similar to above<br/>
+>    .Abandond() : remove delete session<br/>
+> enableSession
