@@ -11,4 +11,8 @@
 
 <img src="https://www.c-sharpcorner.com/UploadFile/e95fe7/using-web-services-in-Asp-Net/Images/Web-Service-2.jpg"/>
 
-> SOAP Simple Object Access Protocol XML based
+> SOAP : Simple Object Access Protocol XML based
+
+> WSDL : Web Service Description Language
+
+> UDDI : Universal Description, Discovery & Integration 
