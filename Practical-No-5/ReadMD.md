@@ -16,3 +16,8 @@
 > WSDL : Web Service Description Language
 
 > UDDI : Universal Description, Discovery & Integration 
+
+Hosting:
+IIS, Windows Hosting, Self-hosting, Windows Active Hosting
+
+<img src = "" alt = "sreee"> 
