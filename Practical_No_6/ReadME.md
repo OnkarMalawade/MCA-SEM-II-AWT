@@ -36,6 +36,12 @@ Html.field=>Html.Hidden("nm","val")
 
 Radio button=>Html.RadioButton("nm","val",true)
 
+Strongly Coupled Input: 
+CheckBox => Html.CheckBoxFor(x => x.isApproved)
+
+When user is post data set method call , user is get data then get data is Called
+
+
 </p>
 
 ## Strongly Typed Input Helper Method
