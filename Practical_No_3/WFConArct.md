@@ -419,3 +419,21 @@ namespace PracticalNo3
   </system.codedom>
 </configuration>
 ```
+
+``` Stored SQL Query
+create procedure insertData(@rN int, @Nm varchar(50), @Add varchar(50))
+as
+begin 
+insert into StdInfo values(@rN, @Nm, @Add)
+set nocount on;
+end
+
+
+CREATE PROCEDURE selectData
+(@Rollno int)
+AS
+BEGIN
+SELECT * FROM StdInfo WHERE rollNo=@Rollno;
+SET NOCOUNT ON;
+END
+```
